@@ -1,0 +1,25 @@
+.selections {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2em;
+  grid-area: selection;
+}
+
+.selection {
+  display: grid;
+  row-gap: 2em;
+}
+
+@media only screen and (max-width: 600px) {
+  .selections {
+    column-gap: 0em;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .selections {
+    column-gap: 0em;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

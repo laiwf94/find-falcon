@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-size: 14px;
+	font-family: Lato, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+	margin-top: 5em;
+	margin-bottom: 5em;
+	--primary: #3f51b5;
+	--primaryDarker: #3700b3;
+	--secondary: #f50057;
+	--secondaryDarker: #c51162;
+	--disabled: rgba(0, 0, 0, 0.26);
+}

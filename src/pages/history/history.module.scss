@@ -1,0 +1,16 @@
+.history {
+	display: grid;
+  row-gap: .5em;
+  margin: 1em;
+}
+
+.row {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	border-bottom: 1px solid #dddddd;
+	div {
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: .5em;
+	}
+}

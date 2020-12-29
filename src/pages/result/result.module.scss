@@ -1,0 +1,22 @@
+.result {
+  display: grid;
+  row-gap: 2em;
+  justify-items: center;
+  align-content: center;
+  margin: 3em;
+  height: 50vh;
+}
+
+.findAgainBtn {
+  width: 80%;
+  height: 4em;
+}
+
+.success {
+  color: #3e4990;
+  text-align: center;
+}
+
+.failed {
+  color: #f44336;
+}

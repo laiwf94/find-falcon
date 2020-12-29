@@ -1,0 +1,21 @@
+.homeBtn {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  height: 50vh;
+  a {
+    height: 80%;
+    width: 80%;
+    font-weight: bold;
+    background-color: transparent;
+    color: #d5d5d5;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .homeBtn {
+    grid-template-columns: none;
+    grid-template-rows: 1fr 1fr;
+    height: 60vh;
+  }
+}

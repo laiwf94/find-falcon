@@ -1,0 +1,34 @@
+.layout {
+  display: grid;
+  grid-template-areas: 'timeTaken' 'selection';
+	grid-template-rows: 5em auto;
+	column-gap: 2em;
+  width: 90%;
+}
+
+.findFalcon {
+  width: 80%;
+  margin-top: 1em !important;
+  height: 4em;
+}
+
+.form {
+	display: grid;
+	justify-items: center;
+	row-gap: 2em;
+}
+
+.title {
+  margin: 1em 1em 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .form {
+		row-gap: 0;
+  }
+  
+  .layout {
+		grid-template-columns: none;
+		column-gap: 0;
+	}
+}
